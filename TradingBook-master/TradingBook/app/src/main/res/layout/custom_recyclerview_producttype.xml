@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="175dp"
+    android:layout_height="175dp"
+    android:background="@color/colorBackground"
+    android:id="@+id/lnitem_customproducttype">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardProductType"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="always"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imProductType"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/loading"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/tvTitleProductType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sachgiaokhoa"
+                android:textSize="18sp"
+                android:maxLines="2"
+                android:layout_centerHorizontal="true"
+                android:textStyle="bold"
+                android:layout_marginTop="125dp"
+                android:textColor="@color/colorWhite"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:id="@+id/tvIdProducttype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

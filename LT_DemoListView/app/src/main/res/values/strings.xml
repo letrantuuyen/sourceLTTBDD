@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LT_DemoListView</string>
+
+    <string-array name="traicay_array">
+        <item>Dua hau</item>
+        <item>Xoai</item>
+        <item>Oi</item>
+        <item>Sau rieng</item>
+        </string-array>
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorGreen"
+    android:contentInsetLeft="0dp"
+    android:contentInsetStart="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp"
+    android:contentInsetRight="0dp"
+    android:contentInsetEnd="0dp"
+    app:contentInsetRight="0dp"
+    app:contentInsetEnd="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorGreen"
+        android:id="@+id/linenear">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_arrow_back_ios_white_18dp"
+            android:background="@color/colorGreen"
+            android:id="@+id/btnBack"
+            />
+        <FrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGreen"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:background="@color/colorGreen"
+                android:drawableLeft="@drawable/ic_search_white_24dp"
+                android:text="@string/timkiem"
+                android:textColor="@color/colorWhite"
+                android:textAllCaps="false"
+                android:textAlignment="textStart"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorWhite"
+                android:layout_marginTop="44dp"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGreen"
+            android:padding="10dp">
+
+            <ImageButton
+                android:id="@+id/btnCart"
+                android:background="@color/colorGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_shopping_cart_white_24dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/tvCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:text="1"
+                android:gravity="center"
+                android:layout_gravity="right"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/circlecart"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="15dp" />
+
+</android.support.v7.widget.Toolbar>
+

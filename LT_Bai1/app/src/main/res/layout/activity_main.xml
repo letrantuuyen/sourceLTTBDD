@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="He so a:"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/heSoA"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="He so b:"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/heSoB"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button_cong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text ="Cộng"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/ketqua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ket qua"
+        android:textSize="20dp" />
+</LinearLayout>

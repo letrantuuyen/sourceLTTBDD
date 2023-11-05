@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My ApplicationTeIm</string>
+    <string-array name="listcpu">
+        <item>Phòng Kế Toán</item>
+        <item>Phòng Tiếp Thị</item>
+        <item>Phòng quan hệ doanh nghiệp</item>
+        <item>Phòng Kỹ thuật</item>
+        <item>Bộ phận quản trị mạng</item>
+        <item>Trung tâm phần mềm</item>
+    </string-array>
+</resources>

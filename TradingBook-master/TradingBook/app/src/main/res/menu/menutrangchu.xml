@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/more"
+        android:icon="@drawable/ic_more_vert_white_24dp"
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:title="@string/dangxuat"
+                android:icon="@drawable/ic_settings_black_24dp"
+                />
+
+            <item
+                android:id="@+id/menuCreate"
+                android:title="@string/themsp"
+                android:icon="@drawable/baseline_library_add_black_18dp"
+                />
+
+        </menu>
+    </item>
+
+</menu>

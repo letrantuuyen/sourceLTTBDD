@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgLogoRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/register_logo"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="330dp"
+        android:layout_below="@id/imgLogoRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/login_textbox" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgLogoRegister"
+        android:paddingTop="30dp"
+        android:layout_alignStart="@id/btnRegister"
+        android:text="@string/emailDangKy"
+        android:textColor="@color/colorBlack"
+        />
+
+    <com.example.anhki.tradingbook.CustomView.ClearEditText
+        android:id="@+id/edRegisterEmail"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvEmail"
+        android:inputType="textEmailAddress"/>
+
+    <TextView
+        android:id="@+id/tvPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edRegisterEmail"
+        android:layout_alignStart="@+id/edRegisterEmail"
+        android:text="@string/matkhau"
+        android:paddingTop="10dp"
+        android:textColor="@color/colorBlack"
+        />
+
+    <com.example.anhki.tradingbook.CustomView.PasswordEditText
+        android:id="@+id/edRegisterPassword"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edRegisterEmail"
+        android:layout_below="@id/tvPass"
+        android:ems="10"
+        app:useStrike="true"/>
+    <TextView
+        android:id="@+id/tvPass2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edRegisterPassword"
+        android:layout_alignStart="@+id/tvEmail"
+        android:text="@string/nhaplaimatkhau"
+        android:paddingTop="10dp"
+        android:textColor="@color/colorBlack"/>
+
+    <com.example.anhki.tradingbook.CustomView.PasswordEditText
+        android:id="@+id/edRePassword"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edRegisterEmail"
+        android:layout_below="@id/tvPass2"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:useStrike="true"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/edRePassword"
+        android:layout_marginTop="14dp"
+        android:text="@string/btndangky"
+        android:background="@color/colorGreen"
+        android:textColor="@color/colorWhite"/>
+</RelativeLayout>

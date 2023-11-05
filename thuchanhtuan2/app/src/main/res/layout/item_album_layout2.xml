@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvStt"
+            android:text="1"
+            android:textSize="26dp"
+            android:layout_margin="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="#E8DCAE"
+            >
+
+        </TextView>
+        <TextView
+            app:layout_constraintLeft_toRightOf="@+id/tvStt"
+            app:layout_constraintRight_toLeftOf="@id/tvNameItemAlbum"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCodeItemAlbum"
+            android:textSize="26dp"
+            android:text="124"
+            android:layout_margin="8dp"
+            android:background="#AEE8D1"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvNameItemAlbum"
+            android:textSize="26dp"
+            android:layout_marginLeft="18dp"
+            app:layout_constraintLeft_toRightOf="@+id/tvCodeItemAlbum"
+            app:layout_constraintBottom_toBottomOf="@+id/tvCodeItemAlbum"
+            android:background="#E8B0AE"
+            >
+
+        </TextView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</RelativeLayout>

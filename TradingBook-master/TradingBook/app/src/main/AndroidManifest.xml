@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anhki.tradingbook">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+
+        <activity android:name=".View.SlashScreenActivity">
+
+        </activity>
+
+        <activity android:name=".View.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".View.HomeActivity">
+
+        </activity>
+
+        <activity android:name=".View.RegisterActivity">
+
+        </activity>
+
+        <activity android:name=".View.RecoveryPasswordActivity">
+
+        </activity>
+
+        <activity android:name=".View.InfoUser">
+
+        </activity>
+
+        <activity android:name=".View.ProductActivity">
+
+        </activity>
+
+        <activity android:name=".View.ProductDetailActivity">
+
+        </activity>
+
+        <activity android:name=".View.SearchActivity">
+
+        </activity>
+
+        <activity android:name=".View.ProductCreate">
+
+        </activity>
+
+        <activity android:name=".View.Cart">
+
+        </activity>
+
+        <activity android:name=".View.Confirm_Info">
+
+        </activity>
+
+        <activity android:name=".View.Thankyou">
+
+        </activity>
+
+        <activity android:name=".View.DetailInvoice">
+
+        </activity>
+
+    </application>
+</manifest>

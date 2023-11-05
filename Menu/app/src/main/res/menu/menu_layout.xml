@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnsanPham"
+        android:title="Sản phẩm" />
+    <item
+        android:id="@+id/mnkhachHang"
+        android:title="Khách hàng" />
+
+    <item
+        android:id="@+id/mnNhanVien"
+        android:title="Nhân viên"/>
+
+            <item
+                android:id="@+id/mnTimKiem"
+                android:title="Tìm Kiếm" >
+                <menu>
+                    <item
+                        android:id="@+id/mntimSanPham"
+                        android:title="Tìm sản phẩm " />
+                    <item
+                        android:id="@+id/mntimKhachHang"
+                        android:title="Tìm khách hàng " />
+                    <item
+                        android:id="@+id/mntimNhanvien"
+                        android:title="Tìm nhân viên  " />
+                </menu>
+
+    </item>
+
+</menu>

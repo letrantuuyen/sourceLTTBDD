@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:id="@+id/relativelayout">
+
+        <ImageView
+            android:id="@+id/imCoverUser"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/anhbia"
+            android:scaleType="centerCrop"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/user1"
+            android:id="@+id/imgAva"/>
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/btnChoose"
+            android:background="@drawable/ic_photo_camera_black_24dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"/>
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="Kiệt Anh"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:layout_below="@+id/imgAva"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/baseline_edit_black_18dp"
+            android:id="@+id/btnEditName"
+            android:layout_alignTop="@+id/txtName"
+            android:layout_marginTop="10dp"
+            android:layout_alignStart="@+id/imgAva"
+            android:layout_marginStart="130dp"
+            android:layout_gravity="center"
+            android:scaleType="center"/>
+    </RelativeLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardviewUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativelayout"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+
+            <LinearLayout
+                android:id="@+id/lncardview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="15dp"
+                    android:text="Số điện thoại"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorBlack"/>
+
+                <EditText
+                    android:id="@+id/txtPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_weight="8"
+                    android:hint="@string/tennguoidung"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorBlack"/>
+
+                <ImageButton
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/baseline_edit_black_18dp"
+                    android:background="@color/colorWhite"
+                    android:id="@+id/btnEditPhone"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lncardview3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_below="@id/lncardview2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="15dp"
+                    android:text="Địa chỉ"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorBlack"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtAddress"
+                    android:hint="@string/diachi"
+                    android:layout_weight="10"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorBlack"/>
+
+                <ImageButton
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/baseline_edit_black_18dp"
+                    android:background="@color/colorWhite"
+                    android:id="@+id/btnEditAddress"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lncardview4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_below="@id/lncardview3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="15dp"
+                    android:text="Điểm"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorBlack"/>
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtPoint"
+                    android:hint="Điểm"
+                    android:layout_weight="10"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorBlack"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardviewUser"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/capnhat"
+            android:background="@color/colorGreen"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_below="@+id/cardviewUser"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btnTempUserInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/cardviewUser"
+            android:text="User Info"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:background="@color/colorGreen"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+</RelativeLayout>

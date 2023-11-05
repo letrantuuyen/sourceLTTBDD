@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <ImageView
+        android:id="@+id/imgLogoLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_logo"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="290dp"
+        android:layout_below="@id/imgLogoLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/login_textbox" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgLogoLogin"
+        android:layout_marginTop="5dp"
+        android:paddingTop="25dp"
+        android:layout_alignStart="@id/btnLogin"
+        android:text="@string/emailDangNhap"
+        android:textColor="@color/colorBlack"
+        />
+
+    <com.example.anhki.tradingbook.CustomView.ClearEditText
+        android:id="@+id/edEmail"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvEmail"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/tvPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edEmail"
+        android:layout_alignStart="@+id/edEmail"
+        android:text="@string/matkhau"
+        android:paddingTop="10dp"
+        android:textColor="@color/colorBlack"
+        />
+
+    <com.example.anhki.tradingbook.CustomView.PasswordEditText
+        android:id="@+id/edPassword"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edEmail"
+        android:layout_below="@id/tvPass"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:useStrike="true"/>
+
+    <TextView
+        android:id="@+id/tvFogetPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edEmail"
+        android:layout_below="@id/edPassword"
+        android:text="@string/quenmatkhau"
+        android:textColor="@color/colorBlue" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvFogetPass"
+        android:layout_marginTop="10dp"
+        android:text="@string/dangnhap"
+        android:background="@color/colorGreen"
+        android:textColor="@color/colorWhite"/>
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnLogin"
+        android:layout_marginTop="5dp"
+        android:paddingTop="5dp"
+        android:text="@string/dangky"
+        android:textColor="@color/colorBlue"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvOr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tvRegister"
+        android:layout_marginTop="30dp"
+        android:text="Hoặc"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        android:textSize="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/tvOr"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        >
+
+        <Button
+            android:id="@+id/btnLoginGoogle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:drawableLeft="@drawable/googlemall"
+            android:text="@string/dangnhapGG"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:id="@+id/btnLoginFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorFB"
+            android:drawableLeft="@drawable/facebookiconsmall"
+            android:layout_weight="1"
+            android:text="@string/dangnhapFB"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/lvSinhVien"
+        android:layout_width="match_parent"
+        android:layout_height="465dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="209dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="268dp"
+            android:layout_height="61dp"
+            android:orientation="horizontal"
+            android:weightSum="9">
+
+            <TextView
+                android:id="@+id/tvHoTen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="Tên sinh viên :"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtSinhVien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:hint="Nhập tên sinh viên" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="267dp"
+            android:layout_height="73dp"
+            android:orientation="horizontal"
+            android:weightSum="9">
+
+            <TextView
+                android:id="@+id/tvNamSinh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="Năm sinh:"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtNamSinh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:hint="Nhâp năm sinh" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="363dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="9">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="Giới tính : "
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbnam"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="5"
+                android:hint="Nam" />
+
+            <RadioButton
+                android:id="@+id/rbnu"
+                android:layout_width="165dp"
+                android:layout_height="35dp"
+                android:layout_weight="5"
+                android:hint="nữ" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnThem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thêm sinh viên" />
+
+</LinearLayout>
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OnthiGK</string>
+    <string-array name="donvi">
+        <item>Phòng Kế Toán</item>
+        <item>Phòng Tiếp Thị</item>
+        <item>Phòng quan hệ doanh nghiệp</item>
+        <item>Phòng kỹ thuật</item>
+        <item>Bộ phận quản trị</item>
+        <item>Trung tâm phần mềm</item>
+    </string-array>
+</resources>

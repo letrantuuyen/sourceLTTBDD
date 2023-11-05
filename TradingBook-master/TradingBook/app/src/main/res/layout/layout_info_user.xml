@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:id="@+id/relativelayout">
+
+    <include
+        layout="@layout/layout_toolbar">
+    </include>
+
+    <RelativeLayout
+        android:id="@+id/relativeImageUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/anhbia"
+            android:scaleType="centerCrop"
+            android:id="@+id/cover" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="110dp"
+            android:layout_height="100dp"
+            android:src="@drawable/userava"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imgUser"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thanh Lê"
+            android:textSize="20sp"
+            android:layout_below="@+id/imgUser"
+            android:id="@+id/txtUserName"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Võ Văn Ngân, Thủ Đức, TPHCM"
+            android:textSize="15sp"
+            android:layout_below="@+id/txtUserName"
+            android:id="@+id/txtUserAddress"
+            android:textColor="@color/colorWhite"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="091999"
+            android:textSize="15sp"
+            android:layout_below="@+id/txtUserAddress"
+            android:id="@+id/txtUserPhone"
+            android:textColor="@color/colorWhite"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tvPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lnrating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeImageUser"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <RatingBar
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:rating="5"
+            android:isIndicator="false"
+            android:theme="@style/RatingBar"
+            android:layout_marginTop="5dp"/>
+
+        <EditText
+            android:id="@+id/txtReason"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:hint="Nội dung đánh giá"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnReport"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:background="@color/colorWhite"
+            android:text="Đánh giá"
+            android:textAllCaps="false"
+            android:textColor="@color/colorBlack"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/viewpageruser"
+        android:background="@color/colorGray"
+        android:layout_below="@id/lnrating">
+
+        <android.support.design.widget.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tablayoutuser"
+            android:layout_below="@+id/rating"
+            android:background="@color/colorWhite"
+            app:tabTextAppearance="@style/CapFalse"
+            app:tabIndicatorColor="@color/colorGreen"
+            >
+        </android.support.design.widget.TabLayout>
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="@color/colorBackground"
+    android:id="@+id/lnitem_customproduct">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="always"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:padding="2dp">
+
+            <ImageView
+                android:id="@+id/imProduct"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/loading"/>
+
+            <LinearLayout
+                android:id="@+id/lnitem_customcard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="95dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvTitleProduct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sach"
+                    android:textStyle="italic|bold"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20sp"
+                    android:maxLines="2"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"/>
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/baseline_close_black_28dp"
+                    android:background="@color/colorWhite"
+                    android:id="@+id/btnRemove"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="95dp"
+                android:orientation="horizontal"
+                android:layout_below="@+id/lnitem_customcard"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/txtNameUser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Busin"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16sp"
+                    android:textStyle="italic|bold"
+                    android:layout_weight="2"
+                    />
+
+                <TextView
+                    android:id="@+id/tvPriceProduct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorGG"
+                    android:text="30.000đ"
+                    android:textSize="18dp"
+                    android:textAlignment="center"
+                    android:layout_alignEnd="@id/btnRemove"
+                    android:textStyle="bold"
+                    android:layout_weight="2"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtStateC"
+                android:textColor="@color/colorGreen" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtDescriptionC"
+                android:textColor="@color/colorGreen"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtAddress1"
+                android:textColor="@color/colorGreen"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtIdUser"
+                android:textColor="@color/colorGreen"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtId"
+                android:textColor="@color/colorGreen"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPricetemp"
+                android:textColor="@color/colorGreen"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtChecked"
+                android:textColor="@color/colorGreen"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtType"
+                android:textColor="@color/colorGreen"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtBought"
+                android:textColor="@color/colorGreen"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvimg"
+                android:textColor="@color/colorGreen"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvimg2"
+                android:textColor="@color/colorGreen"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvimg3"
+                android:textColor="@color/colorGreen"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvimg1"
+                android:textColor="@color/colorGreen"/>
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

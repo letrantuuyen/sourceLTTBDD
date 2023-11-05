@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Các kiểu lập trình sự kiện"
+        android:textSize="30dp"
+        android:background="@android:color/holo_green_dark"
+        android:textAlignment="center"
+
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số a:"
+        android:layout_marginTop="40dp"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edSoA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số b:"
+        android:layout_marginTop="80dp"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edSoB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="80dp"
+        />
+    <TextView
+        android:id="@+id/tv_kq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:layout_marginTop="130dp"
+        android:textSize="30dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        >
+        <Button
+            android:id="@+id/bt_tong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:background="@android:color/white"
+            android:text="Tổng 2 số"
+
+            />
+        <Button
+            android:id="@+id/bt_hieu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:background="@android:color/white"
+            android:text="Hiệu 2 số"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:id="@+id/bt_tich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:background="@android:color/white"
+            android:text="Tích 2 số"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:id="@+id/bt_thuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:background="@android:color/white"
+            android:text="Thương 2 số"
+            android:layout_marginTop="10dp"
+            />
+
+        <Button
+            android:id="@+id/bt_ucln"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:text="Ước chung lớn nhất"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/bt_thoat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thoát chương trình"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

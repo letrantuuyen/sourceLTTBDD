@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Trading Book</string>
+    <string name="dangtai">Loading...</string>
+    <string name="emailDangNhap">Email đăng nhập</string>
+    <string name="emailDangKy">Email đăng ký</string>
+    <string name="matkhau">Mật khẩu</string>
+    <string name="nhaplaimatkhau">Nhập lại mật khẩu</string>
+    <string name="quenmatkhau">Quên mật khẩu?</string>
+    <string name="dangnhap">Đăng nhập</string>
+    <string name="facebook_app_id">320798458471539</string>
+    <string name="thongbaoloi">Bạn chưa nhập</string>
+    <string name="dangky"><u>Đăng ký ngay</u></string>
+    <string name="khoiphucmatkhau">Khôi phục mật khẩu bằng email</string>
+    <string name="chitietkhoiphuc">Bạn vui lòng nhập email vào khung bên dưới để khôi phục mật khẩu</string>
+    <string name="chuacotaikhoan">Bạn chưa có tài khoản? </string>
+    <string name="guimail">Gửi</string>
+    <string name="dangnhapGG">Đăng nhập với Google</string>
+    <string name="dangnhapFB">Đăng nhập với Facebook</string>
+    <string name="btndangky">đăng ký</string>
+    <string name="taikhoankhongtontai">Tài khoản không tồn tại</string>
+    <string name="thanhcong">Thành công</string>
+    <string name="emailkhonghople">Email không hợp lệ. Bạn vui lòng nhập đúng định dạng email</string>
+    <string name="dangxuly">Đang xử lý...</string>
+    <string name="matkhaukhongkhop">Bạn vui lòng nhập mật khẩu giống ở trên</string>
+    <string name="taotaikhoanthanhcong">Tạo tài khoản thành công!</string>
+    <string name="timkiem">Tìm kiếm sách</string>
+    <string name="caidat">Cài đặt</string>
+    <string name="_1">1</string>
+    <string name="more">More</string>
+    <string name="huongdan">Hướng dẫn</string>
+    <string name="tennguoidung">Tên người dùng</string>
+    <string name="sdt">Số điện thoại</string>
+    <string name="diachi">Địa chỉ</string>
+    <string name="baocao">Báo cáo</string>
+    <string name="lydo">Lý do</string>
+    <string name="capnhat">Cập nhật</string>
+    <string name="hintnhap">Nhập tại đây...</string>
+    <string name="sachgiaokhoa">Sách giáo khoa</string>
+    <string name="theloai">Thể loại</string>
+    <string name="sachchuyennganh">Sách chuyên ngành</string>
+    <string name="truyentranh">Truyện tranh</string>
+    <string name="tapchi">Tạp chí</string>
+    <string name="tieuthuyet">Tiểu thuyết</string>
+    <string name="phuongchamsong">Phương châm sống</string>
+    <string name="sachkhoahoc">Sách khoa học</string>
+    <string name="sachkynang">Sách kỹ năng</string>
+    <string name="giaotrinh">Giáo trình</string>
+    <string name="theloaikhac">Thể loại khác</string>
+    <string name="diachi1">Địa chỉ:</string>
+    <string name="nguoiban">Người bán:</string>
+    <string name="tinhtrang">Tình trạng:</string>
+    <string name="themgiohang">Thêm vào giỏ hàng</string>
+    <string name="mota">Mô tả</string>
+    <string name="chinhsua">Chỉnh sửa</string>
+    <string name="luu">Lưu</string>
+    <string name="xoa">Xóa</string>
+    <string name="them">Thêm</string>
+    <string name="phanloai">Phân loại</string>
+    <string name="duyet">Duyệt</string>
+    <string name="themsp">Thêm sản phẩm mới</string>
+    <string name="cart">Giỏ hàng</string>
+    <string name="tong">Tổng tiền:</string>
+    <string name="sdtt">Số điện thoại:</string>
+    <string name="diem">Điểm:</string>
+    <string name="diachii">Địa chỉ:</string>
+    <string name="xacnhan">Xác nhận</string>
+    <string name="bonuspoint">Điểm cộng:</string>
+    <string name="sum">Tổng tiền:</string>
+    <string name="save">Lưu</string>
+    <string name="thanhtoan">Thanh toán</string>
+    <string name="hoantat">Hoàn tất</string>
+    <string name="dangxuat">Đăng xuất</string>
+    <string-array name="product_type">
+        <item>Truyện tranh</item>
+        <item>Sách chuyên ngành</item>
+        <item>Tạp chí</item>
+        <item>Tiểu thuyết</item>
+        <item>Sách khoa học</item>
+        <item>Sách kỹ năng- phương châm sống</item>
+        <item>Giáo trình</item>
+        <item>Thể loại khác</item>
+    </string-array>
+</resources>

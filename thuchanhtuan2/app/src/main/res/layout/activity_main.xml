@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ ALBUM"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:background="#ccc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/btnAddAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm album"
+        app:layout_constraintTop_toBottomOf="@+id/label"
+        android:layout_marginTop="32dp"
+        >
+
+    </Button>
+    <Button
+        android:id="@+id/btnDisplayAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem ds album"
+        app:layout_constraintTop_toBottomOf="@+id/btnAddAlbum"
+        android:layout_marginTop="32dp"
+        >
+
+    </Button>
+    <Button
+        android:id="@+id/btnManagerSing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh sách bài hát"
+        app:layout_constraintTop_toBottomOf="@+id/btnDisplayAlbum"
+        android:layout_marginTop="32dp"
+        >
+
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

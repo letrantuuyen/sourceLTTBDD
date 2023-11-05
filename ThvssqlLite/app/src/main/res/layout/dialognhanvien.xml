@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin chi tiêt"
+        android:textSize="40dp"
+        android:padding="20dp"
+        android:layout_marginBottom="5dp"
+
+        android:textColor="#70BFFD"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="______________________"
+        android:textSize="40dp"
+
+
+        android:textColor="#70BFFD"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Mã Nhân viên:"
+            android:textSize="20dp"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView2" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:ems="10"
+
+
+            android:textColor="@color/black"
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            android:id="@+id/edmaNV" />
+        ></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Tên Nhân viên :"
+            android:textSize="20dp"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textView3" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            android:id="@+id/edtenNV" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Tuổi Nhân viên:"
+            android:textSize="20dp"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:id="@+id/textage" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            android:id="@+id/edageNV" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+
+            android:textColor="@color/black"
+            android:text="Xóa nhân viên"
+            android:layout_marginRight="10dp"
+
+            android:layout_marginTop="20dp"
+
+            android:backgroundTint="@color/white"
+
+
+            android:inputType="textPersonName"
+
+            android:textColorHint="@color/white"
+            android:textSize="20dp"
+            android:id="@+id/xoaNhanVien" />
+
+        <Button
+            android:id="@+id/trove"
+            android:layout_width="wrap_content"
+
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+
+            android:inputType="textPersonName"
+            android:text="Trở về "
+
+            android:textColor="@color/black"
+            android:textColorHint="@color/white"
+            android:textSize="20dp" />
+        ></LinearLayout>
+
+
+</LinearLayout>

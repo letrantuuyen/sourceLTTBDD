@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "348891796048",
+    "firebase_url": "https://trading-book.firebaseio.com",
+    "project_id": "trading-book",
+    "storage_bucket": "trading-book.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348891796048:android:f2e1ffbd07905863",
+        "android_client_info": {
+          "package_name": "com.example.anhki.tradingbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348891796048-ev0v3qn8j3q2athvjumgcd91ebsc1ab4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anhki.tradingbook",
+            "certificate_hash": "a217dc65a71b7accfd4c7abc7b351a001b048320"
+          }
+        },
+        {
+          "client_id": "348891796048-eoppvrgvhdf4v5qn5arb5ccg4kqlbi8g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anhki.tradingbook",
+            "certificate_hash": "1a3eee93a61a567e7c1c9b5b07373d71d7f06d53"
+          }
+        },
+        {
+          "client_id": "348891796048-g87snt2to53lcu15h163tc736n61tbq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyFZU2WpqObfep2S3oTWhnxg1ECaNxfxU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348891796048-g87snt2to53lcu15h163tc736n61tbq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
